@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="shortcut icon" type="image/x-icon"
+	href="images/logo-short.png" />
+<title>Feedback - Banking Project</title>
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<script type="text/javascript" src="js/loginvalidator.js"></script>
+
+
+</head>
+<body>
+	<h1>
+		<center>
+			Vision Bank of India <img alt="Vision Bank Of India"
+				src="images/logo-long.png" style="float: left;" width="300" />
+	</h1>
+	<nav class="navigation-bar">
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a
+			href="Home.html" class="navtext">Home</a>&emsp;&emsp;<a
+			href="login.html" class="navtext">Login</a>&emsp;&emsp;<a
+			href="apply.html" class="navtext">Apply</a>&emsp;&emsp;<a
+			href="aboutApp.html" class="navtext">AboutApp</a>&emsp;&emsp;<a
+			href="aboutdev.html" class="navtext">AboutMe</a>
+
+
+	</nav>
+	<h2 align="center">Feedback Form</h2>
+	<br />
+	<br />
+	
+	<p class="userpassword">We request you to please provide the feedback before leaving.</p>
+	<br>
+	<form action="CustomerFeedbackServlet" method="post">
+		<table align="center">
+			<tr>
+				<th class="userpassword">Give Feedback :</th>
+				<th></th>
+				<th><select name="feedback">
+						<option value="Excellent">Excellent</option>
+						<option value="Good">Good</option>
+						<option value="Bad">Bad</option>
+						<option value="Very Bad">Very Bad</option>
+				</select></th>
+				<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+				<tr align="center"><td colspan="3">
+				<input class="buttons" type="submit" value="Submit" />
+				</td></tr>
+				
+		</table>
+		
+
+
+	</form>
+	<br/>
+	<br/>
+	<br/>
+	<p class="userpassword" align="right">Not willing to give feedback?
+	<span class="signoutfeedback">
+	<a href="LogoutServlet">Sign Out</a>
+	</span></p>
+	</body>
+<footer class="footcopy" align="center">&copy; 2021, Vision
+	Bank of India | All Rights Reserved.</footer>
+</html>

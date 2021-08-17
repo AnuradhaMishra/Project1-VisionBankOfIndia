@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="VisionBank">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/VisionBank/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/VisionBank/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/VisionBank/src/test/java/com/revature/project/banking/Service"/>
+        <property name="context-root" value="VisionBank"/>
+        <property name="java-output-path" value="/VisionBank/VisionBank/target/ProjectOne/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: com.revature.project.banking.Service.EmployeeServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+com.revature.project.banking.Service.EmployeeServiceImplTest.testGetDepositOfCustomerById()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.EmployeeServiceImplTest.testGetDepositOfCustomerById(EmployeeServiceImplTest.java:83)
+
+com.revature.project.banking.Service.EmployeeServiceImplTest.testGetAllDeposits()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.EmployeeServiceImplTest.testGetAllDeposits(EmployeeServiceImplTest.java:76)
+
+com.revature.project.banking.Service.EmployeeServiceImplTest.testGetCustomerById()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.EmployeeServiceImplTest.testGetCustomerById(EmployeeServiceImplTest.java:53)
+
+com.revature.project.banking.Service.EmployeeServiceImplTest.testGetAllCustomer()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.EmployeeServiceImplTest.testGetAllCustomer(EmployeeServiceImplTest.java:48)
+
+com.revature.project.banking.Service.EmployeeServiceImplTest.testGetAllWithdraws()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.EmployeeServiceImplTest.testGetAllWithdraws(EmployeeServiceImplTest.java:64)
+
+com.revature.project.banking.Service.EmployeeServiceImplTest.testGetWithdrawOfCustomerById()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.EmployeeServiceImplTest.testGetWithdrawOfCustomerById(EmployeeServiceImplTest.java:70)
+
+com.revature.project.banking.Service.EmployeeServiceImplTest.testDeleteAnCustomerById()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.EmployeeServiceImplTest.testDeleteAnCustomerById(EmployeeServiceImplTest.java:59)
+
+com.revature.project.banking.Service.EmployeeServiceImplTest.testApproveCustomerRequest()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.EmployeeServiceImplTest.testApproveCustomerRequest(EmployeeServiceImplTest.java:111)
+
+com.revature.project.banking.Service.EmployeeServiceImplTest.testGetCustomerTransferHistory()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.EmployeeServiceImplTest.testGetCustomerTransferHistory(EmployeeServiceImplTest.java:91)
+
+com.revature.project.banking.Service.EmployeeServiceImplTest.testGetCustomerFeedBack()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.EmployeeServiceImplTest.testGetCustomerFeedBack(EmployeeServiceImplTest.java:99)
+
+com.revature.project.banking.Service.EmployeeServiceImplTest.testRejectCustomerRequest()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.EmployeeServiceImplTest.testRejectCustomerRequest(EmployeeServiceImplTest.java:116)
+
+com.revature.project.banking.Service.EmployeeServiceImplTest.testGetAllRequests()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.EmployeeServiceImplTest.testGetAllRequests(EmployeeServiceImplTest.java:106)
+
+com.revature.project.banking.Service.EmployeeServiceImplTest.testAddEmployee()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.EmployeeServiceImplTest.testAddEmployee(EmployeeServiceImplTest.java:122)
+

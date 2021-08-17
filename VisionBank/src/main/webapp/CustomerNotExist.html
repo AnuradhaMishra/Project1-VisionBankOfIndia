@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="shortcut icon" type="image/x-icon" href="images/logo-short.png" />
+<title>Login - Banking Project</title>
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<script type="text/javascript" src="js/loginvalidator.js"></script>
+
+
+</head>
+<body>
+	<h1>
+		<center>Vision Bank of India
+		<img  alt="Vision Bank Of India" src="images/logo-long.png" style = "float:left;"  width="300"/>
+	</h1>
+	<nav class="navigation-bar">
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="Home.html" class="navtext">Home</a>&emsp;&emsp;<a href="login.html" class="navtext">Login</a>&emsp;&emsp;<a href="apply.html" class="navtext">Apply</a>&emsp;&emsp;<a href="aboutApp.html" class="navtext">AboutApp</a>&emsp;&emsp;<a href="aboutdev.html" class="navtext">AboutMe</a>
+
+
+	</nav>
+	<h2 align="center">Login Form</h2>
+	<form action="LoginCustomerServlet" onsubmit="return validate()" name="loginForm">
+		<table cellpadding="10" cellspacing="10">
+			<tr>
+				<td class="userpassword">*Username</td>
+				<td><input type="text" name="username" id="username" /></td>
+			</tr>
+			
+			<tr>
+				<td class="userpassword">*Password (6-10 characters)</td>
+				<td><input type="password" name="password" id="password" /></td>
+			</tr>
+			
+			<tr>
+			<td class="userpassword">Account Type </td>
+			<td class="userpassword">
+			<div class="radiobutton">
+				<input  type="radio" name="type" id="employee" value="employee"/><label for="employee">Employee</label>&emsp;
+			</div>
+			<div class="radiobutton">
+				<input  type="radio" name="type" id="customer" value="customer"/><label for="customer">Customer</label>
+			</div>
+			</td>
+			</tr>
+			
+			<tr>
+				<td align="center" colspan=2><input type="submit" value="Login"
+					class="alert alert-danger">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+				<input type="reset" value="Clear"
+					class="alert alert-warning"></td>
+			</tr>
+			
+
+		</table>
+		
+		<p class="loginError">Sorry, this customer does not exists. Please try again with correct details.</p>
+		<br/>
+		<br/>
+		<br/>
+		
+</body>
+<footer class="footcopy" align="center">&copy; 2021, Vision Bank of India | All Rights Reserved.</footer>
+
+</html>

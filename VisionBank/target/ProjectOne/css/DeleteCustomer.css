@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+header {
+	background-color: #f2f2f2;
+	color: black;
+	font-size: 20px;
+	margin: 0;
+}
+
+body {
+	background-color: white;
+	text-align: center;
+	color: black;
+}
+
+.nav {
+	background-color: black;
+	overflow: hidden;
+}
+
+.nav a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+h4{
+	font-weight: lighter;
+	background-color: #f2f2f2;
+}
+
+footer{
+   background-color:black;
+   text-align:center;
+   color: #ffffff;  
+   font-size: 10px;
+}

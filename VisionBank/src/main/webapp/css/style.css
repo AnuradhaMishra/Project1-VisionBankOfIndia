@@ -1,0 +1,171 @@
+body {
+	background-color: #2a2f3d;
+}
+
+.navigation-bar {
+	text-align: justify;
+	background-color: #ffbd59;
+	font-size: 20px;
+	font-family: "Lucida calligraphy";
+	position: relative;
+	top:45px;
+	color: #2a2f3d;
+}
+
+.navtext {
+	color: #2a2f3d;
+}
+
+.navigation-bar a:hover {
+	background-color: #2a2f3d;
+	color: #ffbd59;
+}
+
+h1 {
+	color: #ffbd59;
+	font-size: 50px;
+	font-family: "Cooper Black";
+	position: relative;
+	right: 50px;
+	top: 20px;
+}
+
+h2 {
+	color: #ffbd59;
+	font-size: 35px;
+	font-family: "Bell MT";
+	position: relative;
+	top: 25px;
+}
+
+.userpassword {
+	font-family: "Lucida calligraphy";
+	color: #ffbd59;
+	font-size: 20px;
+}
+
+input[type=text], input[type=password], input[type=submit], input[type=reset],input[type=email],input[type=number],
+	input[type=radio], select {
+	background-color: #2a2f3d;
+	border: 2px solid #ffbd59;
+	color: #ffbd59;
+	font-family: "Lucida Calligraphy";
+	font-size: 15px;
+}
+
+input[type=submit], input[type=reset] {
+	width: 75px;
+	height: 30px;
+}
+
+.radiobutton {
+	color: #ffbd59;
+	font-family: "Lucida Calligraphy";
+	font-size: 18px;
+	display: inline-block;
+	position: relative;
+}
+
+.radiobutton input[type='radio'] {
+	display: none;
+}
+
+.radiobutton label:before {
+	content: " ";
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	margin: 0 5px 0 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 11px;
+	border: 2px solid #ffbd59;
+	background-color: transparent;
+}
+
+.radiobutton input[type=radio]:checked+label:after {
+	border-radius: 11px;
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	top: 10px;
+	left: 6px;
+	content: " ";
+	display: block;
+	background: #ffbd59;
+}
+
+img {
+	position: relative;
+	left: 60px;
+	bottom: 20px;
+}
+
+.loginError {
+	font-family: "Lucida calligraphy";
+	color: #F03C3C;
+	font-size: 20px;
+}
+
+.homeabout {
+	font-family: "Lucida calligraphy";
+	color: #ffbd59;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.welcomehome {
+	font-family: "Lucida calligraphy";
+	color: #ffffff;
+	font-size: 40px;
+}
+
+.visionor {
+	font-family: "Lucida calligraphy";
+	color: #fd904d;
+	font-size: 40px;	
+}
+
+.visiongr {
+	font-family: "Lucida calligraphy";
+	color: #027e37;
+	font-size: 40px;	
+}
+
+.footcopy {
+	font-family: "Lucida Console";
+	position: relative;
+	bottom: -90px;
+	background-color: #ffbd59;
+	text-align: center;
+	color: #2a2f3d;
+	font-size: 15px;
+	padding: 2px;
+}
+
+.EmployeeHome {
+	text-align: center;
+	line-height: 25px;
+}
+
+.EmployeeHome a {
+	color: #ffbd59;
+	font-family: "Lucida calligraphy";
+	font-size: 18px;
+}
+
+.EmployeeHome a:hover {
+	background-color: #ffbd59;
+	color: #2a2f3d;
+}
+
+.signoutfeedback a {
+	color: #f03c3c;
+	font-family: "Lucida calligraphy";
+	font-size: 18px;
+}
+
+.signoutfeedback a:hover {
+	background-color: #f03c3c;
+	color: #ffbd59;
+}

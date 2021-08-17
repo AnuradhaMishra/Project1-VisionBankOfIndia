@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: com.revature.project.banking.Service.CustomerServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec <<< FAILURE!
+com.revature.project.banking.Service.CustomerServiceImplTest.testGetCustomerById()  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.CustomerServiceImplTest.testGetCustomerById(CustomerServiceImplTest.java:124)
+
+com.revature.project.banking.Service.CustomerServiceImplTest.testUpdateCustomer()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.CustomerServiceImplTest.testUpdateCustomer(CustomerServiceImplTest.java:71)
+
+com.revature.project.banking.Service.CustomerServiceImplTest.testLoginCustomer()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.CustomerServiceImplTest.testLoginCustomer(CustomerServiceImplTest.java:59)
+
+com.revature.project.banking.Service.CustomerServiceImplTest.testGetAllCustomer()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.CustomerServiceImplTest.testGetAllCustomer(CustomerServiceImplTest.java:118)
+
+com.revature.project.banking.Service.CustomerServiceImplTest.testDeleteCustomer()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.CustomerServiceImplTest.testDeleteCustomer(CustomerServiceImplTest.java:63)
+
+com.revature.project.banking.Service.CustomerServiceImplTest.testWithdrawAmount()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.CustomerServiceImplTest.testWithdrawAmount(CustomerServiceImplTest.java:95)
+
+com.revature.project.banking.Service.CustomerServiceImplTest.testTransferAmount()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.CustomerServiceImplTest.testTransferAmount(CustomerServiceImplTest.java:87)
+
+com.revature.project.banking.Service.CustomerServiceImplTest.testGetCustomerBalance()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.CustomerServiceImplTest.testGetCustomerBalance(CustomerServiceImplTest.java:78)
+
+com.revature.project.banking.Service.CustomerServiceImplTest.testDepositAmount()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.CustomerServiceImplTest.testDepositAmount(CustomerServiceImplTest.java:105)
+
+com.revature.project.banking.Service.CustomerServiceImplTest.testIsCustomerExist()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.CustomerServiceImplTest.testIsCustomerExist(CustomerServiceImplTest.java:121)
+
+com.revature.project.banking.Service.CustomerServiceImplTest.testAddCustomer()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.CustomerServiceImplTest.testAddCustomer(CustomerServiceImplTest.java:52)
+
+com.revature.project.banking.Service.CustomerServiceImplTest.testAddFeedback()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.revature.project.banking.Service.CustomerServiceImplTest.testAddFeedback(CustomerServiceImplTest.java:111)
+

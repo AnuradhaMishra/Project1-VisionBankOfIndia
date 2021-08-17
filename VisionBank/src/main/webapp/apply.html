@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="shortcut icon" type="image/x-icon"
+	href="images/logo-short.png" />
+
+<title>Apply Form Here</title>
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+<script type="text/javascript" src="js/validateSignUpForm.js"></script>
+
+
+</head>
+<body>
+	<h1>
+		<center>
+			Vision Bank of India <img alt="Vision Bank Of India"
+				src="images/logo-long.png" style="float: left;" width="300" />
+	</h1>
+	<nav class="navigation-bar">
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a
+			href="Home.html" class="navtext">Home</a>&emsp;&emsp;<a
+			href="login.html" class="navtext">Login</a>&emsp;&emsp;<a
+			href="apply.html" class="navtext">Apply</a>&emsp;&emsp;<a
+			href="aboutApp.html" class="navtext">AboutApp</a>&emsp;&emsp;<a
+			href="aboutdev.html" class="navtext">AboutMe</a>
+
+
+	</nav>
+	<h2 align="center">Apply Form</h2>
+	<br />
+	<br />
+	<form action="CustomerController" method="post" onsubmit="return validate()">
+		<table align="center">
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<th class="userpassword">First Name :</th>
+				<th></th>
+				<th><input type="text" name="firstName" id="firstName"></th>
+				<th><p id="errorFirstName" style="color: red;"
+						onclick="RegisterCustomerValidation()"></p></th>
+			</tr>
+			<tr>
+				<th class="userpassword">Last Name :</th>
+				<th></th>
+				<th><input type="text" name="lastName" id="lastName"></th>
+				<th><p id="errorLastName" style="color: red;"></p></th>
+			</tr>
+			<tr>
+				<th class="userpassword">Password :</th>
+				<th></th>
+				<th><input type="password" name="password" id="password" /></th>
+				<th><p id="errorPassword" style="color: red;"></p></th>
+			</tr>
+
+			<tr>
+				<th class="userpassword">Confirm Password :</th>
+				<th></th>
+				<th><input type="password" name="confirmPassword"
+					id="confirmPassword" /></th>
+				<th><p id="errorConfirmPassword" style="color: red;"></p></th>
+			</tr>
+			<tr>
+				<th class="userpassword">Email Id :</th>
+				<th></th>
+				<th><input type="email" name="emailId" id="emailId"></th>
+				<th><p id="errorMailId" style="color: red;"></p></th>
+			</tr>
+			<tr>
+				<th class="userpassword">Mobile Number :</th>
+				<th></th>
+				<th><input type="number" name="mobileNumber" id="mobileNumber"></th>
+				<th><p id="errorPhoneNumber" style="color: red;"></p></th>
+			</tr>
+			<tr>
+				<th class="userpassword">City :</th>
+				<th></th>
+				<th><select name="city" id="city">
+						<option value="null">--Select your state--</option>
+						<option value="Andhra Pradesh">Andhra Pradesh</option>
+						<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+						<option value="Assam">Assam</option>
+						<option value="Bihar">Bihar</option>
+						<option value="Chattisgarh">Chattisgarh</option>
+						<option value="Goa">Goa</option>
+						<option value="Gujarat">Gujarat</option>
+						<option value="Haryana">Haryana</option>
+						<option value="Himachal Pradesh">Himachal Pradesh</option>
+						<option value="Jharkhand">Jharkhand</option>
+						<option value="Karnataka">Karnataka</option>
+						<option value="Kerala">Kerala</option>
+						<option value="Madhya Pradesh">Madhya Pradesh</option>
+						<option value="Maharashtra">Maharashtra</option>
+						<option value="Manipur">Manipur</option>
+						<option value="Meghalaya">Meghalaya</option>
+						<option value="Mizoram">Mizoram</option>
+						<option value="Nagaland">Nagaland</option>
+						<option value="Odisha">Odisha</option>
+						<option value="Punjab">Punjab</option>
+						<option value="Rajasthan">Rajasthan</option>
+						<option value="Sikkim">Sikkim</option>
+						<option value="Tamil Nadu">Tamil Nadu</option>
+						<option value="Telangana">Telangana</option>
+						<option value="Tripura">Tripura</option>
+						<option value="Uttarakhand">Uttarakhand</option>
+						<option value="Uttar Pradesh">Uttar Pradesh</option>
+						<option value="West Bengal">West Bengal</option>
+						<option value="Andaman and Nicobar Islands">Andaman and
+							Nicobar Islands</option>
+						<option value="Chandigarh">Chandigarh</option>
+						<option value="Dadra and Nagar Haveli">Dadra and Nagar
+							Haveli</option>
+						<option value="Daman & Diu">Daman & Diu</option>
+						<option value="NCT of Delhi">NCT of Delhi</option>
+						<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+						<option value="Ladakh">Ladakh</option>
+						<option value="Lakshadweep">Lakshadweep</option>
+						<option value="Puducherry">Puducherry</option>
+				</select></th>
+				<th><p id="errorCity" style="color: red;"></p></th>
+			</tr>
+			<tr>
+				<th class="userpassword">Account Type :</th>
+				<th></th>
+				<th><select name="accountType" id="accountType">
+						<option value="null">Select Account type</option>
+						<option value="Savings">Savings</option>
+						<option value="Current">Current</option>
+
+				</select></th>
+				<th><p id="errorAccountType" style="color: red;"></p></th>
+			</tr>
+			<tr>
+				<th class="userpassword">Initial Amount :</th>
+				<th></th>
+				<th><input type="number" name="balance" id="balance"></th>
+				<th><p id="errorBalance"></p></th>
+			</tr>
+			<tr align="center">
+				<td colspan="3"><input class="buttons" type="submit"
+					name="submit" id="submit" value="Submit"> <input
+					class="buttons" type="reset" value="Reset">
+				</button></td>
+			</tr>
+		</table>
+		<br> <br> <br> <br>
+	</form>
+	<p class="userpassword" align="right">
+		Already have an account? &emsp; <span class="signoutfeedback">
+			<a class="buttons" href="login.html">Login
+				</button>
+		</span>
+	</p>
+
+</body>
+<footer class="footcopy" align="center">&copy; 2021, Vision
+	Bank of India | All Rights Reserved.</footer>
+
+</html>
